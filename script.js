@@ -1,8 +1,6 @@
-// // Use Moment.js to format the following variables:
-// // Today's date in the following format: Jan 1st, 1999
+// Use Moment.js display today's date and time
 var today = moment();
-$("#currentDay").text(today.format("MMM Do, YYYY"));
-
+$("#currentDay").text(today.format("MMM Do, YYYY, h:mm:ss a"));
 
 // // 2. What is the day of the week today?
 // var dayWeek = today.format("[Today is] dddd")
