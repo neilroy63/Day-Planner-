@@ -1,4 +1,4 @@
-// Use Moment.js display today's date and time
+// using Moment.js to display today's date and time
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY, h:mm:ss a"));
 
